@@ -179,9 +179,8 @@ a {
 .budget {
   background-image: url(./assets/splash\(3\).jpg);
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center;
   background-size: contain;
-  margin-top: ;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -204,19 +203,58 @@ a {
 
 .infos {
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
 }
 
 .infos__content {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
-  margin: 50px 50px;
-  width: 40%;
+  width: 40vw;
+
 }
+
 
 .fa-briefcase, .fa-map-location-dot {
   font-size: 30px;
+}
+
+.infos__text {
+  text-align: center;
+}
+
+.works {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  justify-items: center;
+  max-height: 450px;
+  margin: 50px;
+}
+
+.gallery__card {
+  border-radius: 5px;
+  overflow: hidden;
+
+
+}
+
+.teste {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 
