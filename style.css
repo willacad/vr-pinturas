@@ -1,3 +1,8 @@
+:root {
+  --color-hover: #EF7F1A;
+
+}
+
 body {
   box-sizing: border-box;
   margin: 0;
@@ -22,7 +27,7 @@ a {
 }
 
 .nav__link:hover {
-  color: #EF7F1A;
+  color: var(--color-hover);
 }
 
 .container {
@@ -109,7 +114,7 @@ a {
   justify-content: center;
   width: 150px;
   height: 60px;
-  background-color: #EF7F1A;
+  background-color: var(--color-hover);
   border-radius: 15px;
   color: #ffffff;
   font-size: 20px;
@@ -120,7 +125,7 @@ a {
 
 .main__btn:hover {
   background-color: #fff;
-  color: #EF7F1A;
+  color: var(--color-hover);
 
 }
 
@@ -167,7 +172,7 @@ a {
 
 .card__fig {
   font-size: 40px;
-  color: #ff7700;
+  color: var(--color-hover);
 }
 
 .card__text {
@@ -257,7 +262,6 @@ a {
   transition: transform .25s ease-in-out;
   object-fit: cover;
   cursor: pointer;
-
 }
 
 .gallery__img:hover {
@@ -331,12 +335,38 @@ a {
   transition: transform .5s ease-in-out;
 }
 
+
+
 .finish {
   display: flex;
-  flex-direction: column;
-  height: 200px;
+  justify-content: space-around;
+  align-items: center;
   background-color: #121212;
 }
+
+.logo-footer {
+  width: 130px;
+  height: 110px;
+  background-image: url(./assets/VR-LOGO.png);
+  background-size: cover;
+}
+
+.dev__page {
+  color: #fff;
+  font-weight: 300;
+}
+
+.social-media__fig {
+  margin-right: 15px;
+  color: #fff;
+  font-size: 30px;
+  transition: .5s;
+}
+
+.social-media__fig:hover {
+  color: var(--color-hover);
+}
+
 
 
 
