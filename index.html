@@ -17,21 +17,21 @@
 <body>
   <div class="container">
     <div class="teste">
-      <header>
+      <header id="home">
         <nav class="nav">
           <div class="nav__logo"></div>
           <div class="nav__box">
             <ul class="nav__list">
               <li class="nav__item">
-                <a href="#" class="nav__link">SERVIÇOS</a>
+                <a href="#works" class="nav__link">SERVIÇOS</a>
               <li class="nav__item">
-                <a href="#" class="nav__link">GALERIA</a>
+                <a href="#infos" class="nav__link">A EMPRESA</a>
+              <li class="nav__item">
+                <a href="#gallery" class="nav__link">GALERIA</a>
+              </li>
               </li>
               <li class="nav__item">
-                <a href="#" class="nav__link">PARCEIROS</a>
-              </li>
-              <li class="nav__item">
-                <a href="#" class="nav__link">FALE CONOSCO</a>
+                <a href="#contact" class="nav__link">FALE CONOSCO</a>
               </li>
             </ul>
         </nav>
@@ -39,8 +39,8 @@
       <section class="main">
         <div class="slogan">
           <h1 class="slogan__title"> A melhor solução
-            em pintura residencial de Pelotas!</h1>
-          <p class="slogan__text">Excelência no acabamento e uma equipe comprometida com cada etapa!</p>
+            em pintura residencial e comercial em Pelotas!</h1>
+          <p class="slogan__text">Excelência no acabamento e uma equipe atenta a cada detalhe!</p>
           <a href="https://web.whatsapp.com/send?phone=5553991965775" class="main__btn">Fale Conosco</a>
         </div>
       </section>
@@ -52,36 +52,32 @@
         <i class="fa-solid card__fig fa-store"></i>
       </div>
       <h2 class="card__title">Pintura Comercial</h2>
-      <p class="card__text">A VR Pinturas é especialista na execução de reformas e reparos no interior ou exterior do
-        seu emprendimento.
-        Nossa busca é sempre pelo melhor visual do seu comércio!</p>
+      <p class="card__text">A VR PINTURAS é especialista na execução de reformas e reparos no interior ou exterior do
+        seu emprendimento,
+        buscando sempre atingir o objetivo do cliente!</p>
     </div>
-    <div class="card">
+    <div class="card" id="works">
       <div class="card__radial">
         <i class="fa-solid card__fig fa-house"></i>
       </div>
       <h2 class="card__title">Pintura Residencial</h2>
-      <p class="card__text">A empresa nasceu para satisfazer a demanda por serviços de pintura com QUALIDADE e PREÇO
-        JUSTO.
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-        dolore</p>
+      <p class="card__text">Por meio de uma equipe especializada, a VR PINTURAS garante o planejamento e a entrega de
+        reformas em estruturas estabelecidas ou em sua obra começando do zero. </p>
     </div>
     <div class="card">
       <div class="card__radial">
         <i class="fa-solid card__fig fa-brush"></i>
       </div>
       <h2 class="card__title">Pequenos Reparos</h2>
-      <p class="card__text">A empresa nasceu para satisfazer a demanda por serviços de pintura com QUALIDADE e PREÇO
-        JUSTO.
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-        dolore</p>
+      <p class="card__text">Buscando sempre a satisfação do cliente, realizamos pequenos reparos e retoques em portas
+        e janelas, bem como na estrutura, tanto em ambiente comercial como em residencial.</p>
     </div>
   </section>
   <section class="budget">
     <h1 class="buget__title"> FAÇA O SEU ORÇAMENTO GRATUITAMENTE!</h1>
-    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-      y="0px" width="100px" height="100px" viewBox="0 0 479.759 479.759"
-      style="enable-background:new 0 0 479.759 479.759;" xml:space="preserve">
+    <svg class="buget__roller" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="100px"
+      viewBox="0 0 479.759 479.759" style="enable-background:new 0 0 479.759 479.759;" xml:space="preserve">
       <g>
         <path d="M436.979,53.755h-20.604V8.063c0-4.451-3.606-8.063-8.063-8.063H67.867c-4.458,0-8.063,3.612-8.063,8.063v45.691H42.78
 		c-4.457,0-8.063,3.611-8.063,8.062c0,4.452,3.607,8.063,8.063,8.063h17.024v45.691c0,4.451,3.606,8.062,8.063,8.062h340.439
@@ -95,7 +91,7 @@
       </g>
     </svg>
   </section>
-  <div class="infos">
+  <div class="infos" id="infos">
     <section class="infos__content">
       <i class="fa-solid fa-briefcase"></i>
       <h3 class="infos__tlte">
@@ -103,11 +99,9 @@
       </h3>
       <p class="infos__text">
         A empresa nasceu para satisfazer a demanda por serviços de pintura com QUALIDADE e PREÇO JUSTO.
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-        dolore
-        magna aliquyam erat, sed diam voluptua.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-        eirmod tempor invidunt ut labore et dolore
-        magna aliquyam erat, sed diam voluptua.
+        Iniciamos as atividades em 2017 e desde então buscamos evoluir dia após dia, atendendo as demandas em obras
+        residenciais e comerciais. Procuramos sempre superar as expectativas dos nossos clientes, agindo sempre com
+        transparência nas negociações e prazos!
       </p>
     </section>
     <section class="infos__content">
@@ -116,16 +110,14 @@
         LOCALIZAÇÃO
       </h3>
       <p class="infos__text">
-        A empresa nasceu para satisfazer a demanda por serviços de pintura com QUALIDADE e PREÇO JUSTO.
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-        dolore
-        magna aliquyam erat, sed diam voluptua.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-        eirmod tempor invidunt ut labore et dolore
-        magna aliquyam erat, sed diam voluptua.
+        A VR PINTURAS está localizada na cidade de Pelotas-RS. <br>Atendemos em toda a cidade, inclusive região rural.
+        Também trabalhamos em cidades vizinhas como, Rio Grande e Capão do leão. Para saber melhor sobre nossa
+        disponibilidade para
+        execução de serviço, entre em contato!
       </p>
     </section>
   </div>
-  <section class="works">
+  <section class="works" id="gallery">
     <div class="works__box">
       <div class="works__row"></div>
       <h1 class="works__title"><span class="works__span">Nossos</span> Trabalhos</h1>
@@ -166,9 +158,11 @@
       <span class="modal__close" id="modal__btn" onclick="closeGallery()">&times;</span>
     </div>
   </section>
-  <footer class="finish">
-    <div class="logo-footer">
-    </div>
+  <footer class="finish" id="contact">
+    <a href="#home" class="link__logo">
+      <div class="logo-footer">
+      </div>
+    </a>
     <div class="dev">
       <div class="dev__adress">
         <p class="devtitle"> </p>
