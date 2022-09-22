@@ -393,7 +393,7 @@ a {
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    background-image: url(./assets/pinturas-em-ribeirao-preto-2-1260x630\(1\).jpg);
+    background-image: url(./assets/latas-ofice.jpg);
     background-size: center;
     background-repeat: no-repeat;
     height: 60%;
@@ -528,6 +528,16 @@ a {
     background-color: #121212;
   }
 
+  .finish :nth-child(2) {
+    order: 3;
+  }
+
+  .social-media {
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+  }
+
+
   .modal__img {
     position: absolute;
     z-index: 10;
@@ -545,4 +555,5 @@ a {
   .modal {
     padding: 0;
   }
+
 }
