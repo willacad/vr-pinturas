@@ -531,8 +531,8 @@ a {
   .modal__img {
     position: absolute;
     z-index: 10;
-    top: 50%;
-    height: 35vh;
+    top: 25%;
+    height: 40vh;
     width: 100%;
     padding: 5px;
     background-color: #fff;
