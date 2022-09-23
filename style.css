@@ -216,8 +216,7 @@ a {
 
 }
 
-/* mudar nome das classes para o padrao certo */
-.fa-briefcase, .fa-map-location-dot {
+.infos__fig {
   font-size: 30px;
 }
 
@@ -388,6 +387,14 @@ a {
 
   }
 
+  .nav__logo {
+    width: 200px;
+    height: 200px;
+    background-image: url(./assets/VR-LOGO.png);
+    background-size: cover;
+    margin-left: 0;
+  }
+
   .container {
     display: flex;
     align-items: center;
@@ -398,6 +405,16 @@ a {
     background-repeat: no-repeat;
     height: 98vh;
   }
+
+  .container__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80%;
+  }
+
+
 
   .slogan {
     margin: 30px 0 0 0;
